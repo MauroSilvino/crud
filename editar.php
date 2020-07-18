@@ -1,6 +1,7 @@
 <?php
 include_once 'php_action/db_connect.php';
 include_once 'includes/header.php';
+//Coletando dados já existentes
 if(isset($_GET['id'])):
    $id = mysqli_escape_string($connect, $_GET['id']);
    $sql = "SELECT * FROM clientes WHERE id = '$id'";
