@@ -1,4 +1,5 @@
 <?php
+//Mensagem de exito ou erro ao cadastrar.
 session_start();
 if(isset($_SESSION['mensagem'])): ?>
     <script>
