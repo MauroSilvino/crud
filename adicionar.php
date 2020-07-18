@@ -1,5 +1,6 @@
 <?php
 include_once 'includes/header.php';
+// Formulário de criação de cadastros.
 ?>
 
 <div class="row">
@@ -32,8 +33,6 @@ include_once 'includes/header.php';
         </form>
     </div>
 </div>
-
-
 
 <?php
 include_once 'includes/footer.php';
